@@ -1,0 +1,51 @@
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+form input{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+form input[type="text"]{
+    width: 100%;
+    margin-right: 10px;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="button"]{
+    background-color:rgb(255, 102, 60);
+    color: white;
+    cursor: pointer;
+}
+#Tasks{
+    padding: 10px;
+    border-radius: 14px;
+    background-color:#eee;
+    margin-top:30px;
+}
+.tasks div{
+    margin-top:10px;
+    padding: 10px;
+    background-color:#eee;
+    border-radius: 10px;
+}
+.done{
+    text-decoration: line-through;
+    background-color: #d4d4d4 !important;
+}
+.task{
+    cursor: pointer;
+}
+.task span{
+    color: rgb(255, 102, 60);
+    position:absolute;
+    right: 25px;
+    cursor: pointer;
+}
